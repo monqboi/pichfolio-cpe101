@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Pichfolio</title>
+    <link rel="icon" href="assets/img/logo title/gurl.png" type="image/x-icon">
+</head>
+<body>
+    <!--header-->
+    <header class="header" id="header">
+        <nav class="nav container"> <!--icon-->
+            <a href="#" class="nav__logo">Pichfolio</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"> <!--home icon-->
+                        <a href="#home" class="nav__link ">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item"> <!--about icon-->
+                        <a href="#about" class="nav__link"> 
+                            <i class="uil uil-user-circle nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item"> <!--contact icon-->
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!--Theme change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--main-->
+    <main class="main">
+        <!--home-->
+        <section class="home section" id="home">
+            <div class="home__container contain grid">
+                <div class="home__content grid">
+                    <div class="home__img">
+                        <img src="assets/img/socute.png" alt="" class="home__blob">
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I am <br>Pichamon Jarunrungroj</h1>
+                        <h2 class="home__subtitle">from Mahapruttaram Girls' School</h2>
+                        <p class="home__description">portfolio for  Faculty of Computer 
+                            Engineering <br>King Mongkut's University of Technology Thonburi</p>
+                        <a href="#about" class="button button--flex">
+                            About Me <i class="uil uil-user-circle button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!--about-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            
+            <div class="about__container container grid">
+                <div>
+                    <!--about_profile-->
+                    <div class="about__content about__close">
+                        <div class="about__header">
+                            
+                            <i class="uil uil-user about__icon"></i><!--ไอค่อนใหญ่ เติม about__icon ด้วย-->
+                            <div>
+                                <h1 class="about__title">Profile</h1>
+                                <span class="about__subtitle">ข้อมูลส่วนตัว</span>
+                            </div>
+
+                            <i class="uil uil-angle-down about__arrow"></i>
+                        </div>
+
+                        <div class="about__list grid">
+                            <span class="profile__span">
+                            <span class="attitude__span">ชื่อ-นามสกุล :</span> พิชามญชุ์ จรัลรุ่งโรจน์
+                            <br><span class="attitude__span">วัน เดือน ปี เกิด :</span> 06/12/47
+                            <br><span class="attitude__span">ชื่อเล่น :</span> ดรีม     หมู่เลือด : B
+                            <br><span class="attitude__span">สัญชาติ :</span> ไทย    <span class="attitude__span">เชื้อชาติ :</span> ไทย
+                            <br><span class="attitude__span">ศาสนา :</span> พุทธ    <span class="attitude__span">อายุ :</span> 18 ปี
+                            </span>
+                        </div>
+
+                    </div>
+                    <!--about_education-->
+                    <div class="about__content about__close">
+                        <div class="about__header">
+                            
+                            <i class="uil uil-graduation-cap about__icon"></i><!--ไอค่อนใหญ่ เติม about__icon ด้วย-->
+                            <div>
+                                <h1 class="about__title">Education</h1>
+                                <span class="about__subtitle">การศึกษา</span>
+                            </div>
+
+                            <i class="uil uil-angle-down about__arrow"></i>
+                        </div>
+
+                        <div class="about__list grid">
+
+                            <div class="education__container container">
+                                <div class="education__sections">
+                                    <div class="education__content">
+                                        <!--========อนุบาล========-->
+                                        <div class="education__data">
+                                            <div>
+                                                <span class="education__subtitle">Kindergarten</span>
+                                                <h3 class="education__title">โรงเรียนสารสาสน์พัฒนา</h3>
+                                                <div class="education__calendar">
+                                                    <i class="uil uil-calender"></i>
+                                                    School year 2008-2010
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <span class="education__rounder"></span>
+                                                <span class="education__line"></span>
+                                            </div>
+                                            
+                                        </div>
+                                        <!--========ประถม========-->
+                                        <div class="education__data">
+                                            <div></div>
+
+                                            <div>
+                                                <span class="education__rounder"></span>
+                                                <span class="education__line"></span>
+                                            </div>
+
+                                            <div>
+                                                <span class="education__subtitle">Primary School</span>
+                                                <h3 class="education__title">โรงเรียนวาสุเทวี</h3>
+                                                <div class="education__calendar">
+                                                    <i class="uil uil-calender"></i>
+                                                    School year 2011-2016
+                                                </div>
+                                            </div>     
+                                        </div>
+                                        <!--========มัธยมต้น========-->
+                                        <div class="education__data">
+                                            <div>
+                                                <span class="education__subtitle">Junior High School</span>
+                                                <h3 class="education__title">โรงเรียนสตรีวัดมหาพฤฒาราม<br>ในพระบรมราชินูถัมภ์</h3>
+                                                <div class="education__calendar">
+                                                    <i class="uil uil-calender"></i>
+                                                    School year 2017-2019
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <span class="education__rounder"></span>
+                                                <span class="education__line"></span>
+                                            </div>
+                                            
+                                        </div>
+                                        <!--========มัธยมปลาย========-->
+                                        <div class="education__data">
+                                            <div></div>
+
+                                            <div>
+                                                <span class="education__rounder"></span>
+                                                <!--<span class="education__line"></span>-->
+                                            </div>
+
+                                            <div>
+                                                <span class="education__subtitle">Senior High School</span>
+                                                <h3 class="education__title">โรงเรียนสตรีวัดมหาพฤฒาราม<br>ในพระบรมราชินูถัมภ์</h3>
+                                                <div class="education__calendar">
+                                                    <i class="uil uil-calender"></i>
+                                                    School year 2020-present
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--about_skills-->
+                    <div class="about__content about__close">
+                        <div class="about__header">
+                            
+                            <i class="uil uil-user about__icon"></i> <!--ไอค่อนใหญ่-->
+                            <div>
+                                <h1 class="about__title">Skills</h1>
+                                <span class="about__subtitle">ทักษะ</span>
+                            </div>
+
+                            <i class="uil uil-angle-down about__arrow"></i>
+                        </div>
+
+                        <div class="about__list grid">
+
+                            <div class="about__data">
+                                <div class="about__titles">
+                                    <h3 class="about__name">C language</h3>
+                                    <span class="about__level">newbie</span>
+                                </div>
+                                <div class="about__bar">
+                                    <span class="about__percentage about__clanguage"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="about__data">
+                                <div class="about__titles">
+                                    <h3 class="about__name">Python</h3>
+                                    <span class="about__level">newbie</span>
+                                </div>
+                                <div class="about__bar">
+                                    <span class="about__percentage about__python"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="about__data">
+                                <div class="about__titles">
+                                    <h3 class="about__name">HTML&CSS</h3>
+                                    <span class="about__level">basic</span>
+                                </div>
+                                <div class="about__bar">
+                                    <span class="about__percentage about__htmlcss"></span>
+                                </div>
+                            </div>
+
+                            <div class="about__data">
+                                <div class="about__titles">
+                                    <h3 class="about__name">Singing</h3>
+                                    <span class="about__level">intermediate</span>
+                                </div>
+                                <div class="about__bar">
+                                    <span class="about__percentage about__singing"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="about__data">
+                                <div class="about__titles">
+                                    <h3 class="about__name">Creativity</h3>
+                                    <span class="about__level">intermediate</span>
+                                </div>
+                                <div class="about__bar">
+                                    <span class="about__percentage about__creativity"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="about__data">
+                                <div class="about__titles">
+                                    <h3 class="about__name">Teamwork</h3>
+                                    <span class="about__level">advanced</span>
+                                </div>
+                                <div class="about__bar">
+                                    <span class="about__percentage about__teamwork"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="about__data">
+                                <div class="about__titles">
+                                    <h3 class="about__name">Confidence</h3>
+                                    <span class="about__level">advanced</span>
+                                </div>
+                                <div class="about__bar">
+                                    <span class="about__percentage about__confidence"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact-->
+        <section class="contact section" id="contact">
+            <h3 class="section__title">Contact</h3>    
+
+                <div class="contact__container container grid">
+                    <div>
+                        <!--contact__phone-->
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Call</h3>
+                                <p class="contact__subtitle">062-427-4659</p>
+                            </div>
+                        </div>
+                        <!--contact__mail-->
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <p class="contact__subtitle">p.pichamon47@gmail.com</p>
+                            </div>
+                        </div>
+                        <!--contact__address-->
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Address</h3>
+                                <p class="contact__subtitle">127 ถนนจันทน์ แขวงบางโคล่ เขตบางคอแหลม กรุงเทพมหานคร 10120</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="https://formsubmit.co/p.pichamon47@gmail.com" class="contact__from grid" method="POST"> 
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Subject</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Detail</label>
+                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="button button--flex" >
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </section>
+
+
+
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">
+                        Portfolio
+                    </h1>
+                    <span class="footer__subtitle">
+                        Pichamon's
+                    </span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/monqboi" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://line.me/ti/p/nzs7V_T38O" target="_blank" class="footer__social">
+                        <i class="uil uil-line"></i>
+                    </a>
+                    <a href="https://instagram.com/monqboi?igshid=YmMyMTA2M2Y=" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>  
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                &#169; Pichamon. All right reserved
+            </p>
+        </div>
+    </footer>
+
+
+    <!--scroll top-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!--main js-->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+</html>
